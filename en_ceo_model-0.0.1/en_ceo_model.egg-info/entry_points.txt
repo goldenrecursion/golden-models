@@ -1,0 +1,3 @@
+[spacy_models]
+en_ceo_model = en_ceo_model
+

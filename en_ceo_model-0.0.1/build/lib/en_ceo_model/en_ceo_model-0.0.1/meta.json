@@ -1,0 +1,57 @@
+{
+  "lang":"en",
+  "name":"ceo_model",
+  "version":"0.0.1",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_version":">=3.1.0,<3.2.0",
+  "spacy_git_version":"530b5d72f",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "CEO_ORG",
+      "CEO_PERSON"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.9029021856,
+    "ents_p":0.9088770758,
+    "ents_r":0.8970053393,
+    "ents_per_type":{
+      "CEO_PERSON":{
+        "p":0.9308110828,
+        "r":0.9131776249,
+        "f":0.9219100424
+      },
+      "CEO_ORG":{
+        "p":0.8870644899,
+        "r":0.880729102,
+        "f":0.8838854436
+      }
+    },
+    "tok2vec_loss":551.3054833787,
+    "ner_loss":1682.8014532934
+  }
+}

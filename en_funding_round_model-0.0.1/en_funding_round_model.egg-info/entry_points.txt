@@ -1,0 +1,3 @@
+[spacy_models]
+en_funding_round_model = en_funding_round_model
+
